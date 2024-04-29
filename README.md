@@ -9,7 +9,8 @@ Welcome to the Medicine Dispenser Vending Machine project documentation! This pr
 4. [Hardware Setup](#hardware-setup)
 5. [Software Components](#software-components)
 6. [Team Members](#team-members)
-7. [Project Website](#project-website)
+7. [About ECS](#engineering-clinics)
+8. [Project Website](#project-website)
 
 ## Introduction
 The Medicine Dispenser Vending Machine project provides a seamless experience for users to obtain their prescribed medicines. By integrating hardware components like Arduino Uno, DC motors, and Bluetooth HC05, along with software components developed using MIT App Inventor and Firebase, this project ensures efficient medicine dispensing and user management.
@@ -45,6 +46,11 @@ The hardware setup includes components such as Arduino Uno, DC motors for dispen
 - Siva Venkat
 - Bhavitha
 - Yatheendra
+  
+## Engineering Clinics
+This project was developed as part of the Engineering Clinics program at VIT AP University. Engineering Clinics provide students with hands-on experience in developing real-world projects, fostering collaboration and innovation among team members. This interdisciplinary project combines software and hardware components to create a seamless solution for medicine dispensing. By integrating software development with hardware engineering, our team has created an innovative system that leverages technology to improve healthcare access and convenience.
+
+
 
 ## Project Website
 Visit our [project website](https://medicine-dispenser.vercel.app/) to log in and view your purchase history!

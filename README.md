@@ -11,6 +11,7 @@ Welcome to the Medicine Dispenser Vending Machine project documentation! This pr
 6. [Team Members](#team-members)
 7. [About ECS](#engineering-clinics)
 8. [Project Website](#project-website)
+9. [Future Scope](#future-scope)
 
 ## Introduction
 The Medicine Dispenser Vending Machine project provides a seamless experience for users to obtain their prescribed medicines. By integrating hardware components like Arduino Uno, DC motors, and Bluetooth HC05, along with software components developed using MIT App Inventor and Firebase, this project ensures efficient medicine dispensing and user management.
@@ -51,6 +52,17 @@ The hardware setup includes components such as Arduino Uno, DC motors for dispen
 This project was developed as part of the Engineering Clinics program at VIT AP University. Engineering Clinics provide students with hands-on experience in developing real-world projects, fostering collaboration and innovation among team members. This interdisciplinary project combines software and hardware components to create a seamless solution for medicine dispensing. By integrating software development with hardware engineering, our team has created an innovative system that leverages technology to improve healthcare access and convenience.
 
 
-
 ## Project Website
 Visit our [project website](https://medicine-dispenser.vercel.app/) to log in and view your purchase history!
+
+
+## Future Scope
+- **Doctor Portal:** Expand the system to include a portal for doctors to digitally generate and sign QR prescriptions. This portal would streamline the prescription process and ensure authenticity, reducing the risk of misuse or errors.
+- **Enhanced Security:** Implement advanced encryption and authentication mechanisms to enhance the security of user data and transactions.
+- **Remote Monitoring:** Introduce remote monitoring capabilities to allow healthcare providers to remotely track medicine dispensing and user interactions, enabling better patient care and management.
+- **Integration with Electronic Health Records (EHR):** Integrate the system with electronic health record systems to provide comprehensive patient information and improve healthcare coordination.
+- **Smart Inventory Management:** Implement smart inventory management features to monitor medicine stock levels, automate reordering processes, and optimize inventory usage.
+- **User Feedback and Analytics:** Incorporate feedback mechanisms and analytics tools to gather user feedback, analyze usage patterns, and continuously improve the system's performance and user experience.
+- **Expand to Other Healthcare Services:** Explore opportunities to expand the system's capabilities to offer additional healthcare services, such as telemedicine consultations, appointment scheduling, or health monitoring.
+- **Localization and Accessibility:** Customize the system to support multiple languages and ensure accessibility for users with disabilities, thereby reaching a broader audience and improving inclusivity.
+

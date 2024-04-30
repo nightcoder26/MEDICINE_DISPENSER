@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medicine Vending Machine</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Medicine Vending Machine</h1>
+      <div id="doctorForm" class="form-container">
+        <h2>Doctor's Prescription</h2>
+        <form id="generateQrForm">
+          <label for="medicineName">Medicine Name:</label>
+          <input type="text" id="medicineName" name="medicineName" required />
+          <button type="submit">Generate QR Code</button>
+        </form>
+        <div id="qrCodeContainer" class="qr-code-container"></div>
+      </div>
+      <div id="patientForm" class="form-container">
+        <h2>Patient Prescription</h2>
+        <form id="scanQrForm">
+          <label for="scanQrCode">Scan QR Code:</label>
+          <input
+            type="file"
+            accept="image/*"
+            capture="environment"
+            id="scanQrCode"
+            name="scanQrCode"
+            required
+          />
+          <button type="submit">Scan</button>
+        </form>
+        <div id="medicineList" class="medicine-list"></div>
+      </div>
+      <div id="paymentForm" class="form-container">
+        <h2>Payment</h2>
+        <form id="paymentForm">
+          <label for="paymentAmount">Payment Amount:</label>
+          <input type="text" id="paymentAmount" name="paymentAmount" required />
+          <button type="submit">Pay</button>
+        </form>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

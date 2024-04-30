@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prescription Generator</title>
+  </head>
+  <body>
+    <h1>Prescription Generator</h1>
+    <form id="prescriptionForm">
+      <label for="medicineName">Medicine Name:</label>
+      <input
+        type="text"
+        id="medicineName"
+        name="medicineName"
+        required
+      /><br /><br />
+      <label for="doctorLicense">Doctor's License Number:</label>
+      <input
+        type="text"
+        id="doctorLicense"
+        name="doctorLicense"
+        required
+      /><br /><br />
+      <button type="submit">Generate Prescription</button>
+    </form>
+    <div id="result"></div>
+
+    <script>
+      document
+        .getElementById("prescriptionForm")
+        .addEventListener("submit", async (event) => {
+          event.preventDefault();
+          const formData = new FormData(event.target);
+          const medicineName = formData.get("medicineName");
+          const doctorLicense = formData.get("doctorLicense");
+
+          try {
+            const response = await fetch("/generate-prescription", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({ medicineName, doctorLicense }),
+            });
+            const data = await response.json();
+            document.getElementById(
+              "result"
+            ).innerText = `Digital Signature: ${data.digitalSignature}`;
+          } catch (error) {
+            console.error("Error:", error);
+          }
+        });
+    </script>
+  </body>
+</html>

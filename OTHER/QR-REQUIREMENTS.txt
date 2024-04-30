@@ -1,0 +1,4 @@
+- N ames of the medicine
+- Doctor's license number
+- Date of the prescription
+- Digital signature of the doctor

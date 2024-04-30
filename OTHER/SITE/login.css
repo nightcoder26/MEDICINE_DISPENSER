@@ -1,0 +1,135 @@
+/* h2 {
+  color: rgb(107, 0, 0);
+  font-size: 100px; 
+  text-align: center;
+} */
+
+/* .circle-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+} */
+* {
+  font-family: "Poppins", sans-serif;
+}
+.head {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #0080ff;
+  color: #ffffff;
+}
+
+/* #medicine-table {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+}
+#medicine-table thead {
+  background-color: #0080ff;
+  color: #ffffff;
+}
+
+#medicine-table tbody {
+  background-color: #f0f0f0;
+}
+
+#medicine-table tbody tr:hover {
+  background-color: #d3d3d3;
+} */
+.class-text {
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+#usernameGlobal {
+  color: #0080ff;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+#medicine-table {
+  border-collapse: collapse;
+  width: 70%;
+}
+
+#medicine-table th,
+#medicine-table td {
+  padding: 1.5rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#medicine-table th {
+  background-color: #0080ff;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#medicine-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+#image-index {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding-top: 0.5rem;
+}
+.login-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 8rem;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.login-form input {
+  width: 100%;
+  /* padding: 10px; */
+  padding: 0.4rem;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Poppins";
+}
+
+.login-form input:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.form-element {
+  margin: 4rem;
+}
+.login-form button {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  font-weight: 500;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #0080ff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#error-message {
+  color: red;
+}
+.login-form button:hover {
+  background-color: #002e8b;
+  color: white;
+  transform: scale(1.05);
+}

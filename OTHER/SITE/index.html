@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+ 
+    <div class="login-form">
+      <form id="login-form-main">
+        <div align="center">
+          <h2  class="form-text">Welcome to Maven! </h2>
+          <img  src="WhatsApp Image 2024-04-28 at 1.25.20 PM.jpeg" width="100px">
+        </div>
+        
+        <input
+          type="text"
+          class="form-element"
+          placeholder="Username"
+          id="login-username"
+        />
+        <input
+          type="password"
+          class="form-element"
+          placeholder="Password"
+          id="login-password"
+        />
+        <button type="submit" class="form-element">Login</button>
+        <p id="error-message"></p>
+      </form>
+    </div>
+    <script type="module"src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+   <script type="module" src="script.js"></script>
+  </body>
+</html>

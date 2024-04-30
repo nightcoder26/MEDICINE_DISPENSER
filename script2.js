@@ -107,6 +107,8 @@ function updateTable(medicineName, quantity, amount) {
 }
 
 getMedicineDetails(username);
+// getMedicineDetails(username);
+// getMedicineDetails(username);
 
 function handleLogout() {
   console.log("Logging out");

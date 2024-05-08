@@ -40,6 +40,16 @@ The hardware setup includes components such as Arduino Uno, DC motors for dispen
 - **Firebase:** Database storage for user information and purchase history.
 - **Website:** Pure HTML, CSS, and JavaScript for the project website, fetching data from Firebase to display purchase history.
 
+## Screenshots
+<img src="https://github.com/nightcoder26/MEDICINE_DISPENSER/assets/77844703/078b6d9b-8711-475a-b95a-22b82bf4f5cd" > 
+<img src="https://github.com/nightcoder26/MEDICINE_DISPENSER/assets/77844703/f1504bce-8530-42bb-bf6c-07870065a0dd" > 
+<img src="https://github.com/nightcoder26/MEDICINE_DISPENSER/assets/77844703/be60ee88-6cc5-4cee-93c9-1457e79bf6c1" width="250px"> 
+<img src="https://github.com/nightcoder26/MEDICINE_DISPENSER/assets/77844703/3241e042-e107-4041-b3f2-ee9f5a139ad3" width="250px"> 
+<img src="https://github.com/nightcoder26/MEDICINE_DISPENSER/assets/77844703/6852127e-7d24-42a8-81ec-36db5d13f59c" width="250px"> 
+
+
+
+
 ## Team Members
 - P S Sriram
 - Vyshakh
